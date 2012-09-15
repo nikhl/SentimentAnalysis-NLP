@@ -1,9 +1,5 @@
 README File for Machine Learning Final Project
 
-Project group	
-
-1) Nikhil Lingutla (931-692-837)
-
 Folder /code/matlab
 nb_bernoulli.m
 
