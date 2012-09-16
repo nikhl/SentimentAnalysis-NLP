@@ -33,7 +33,50 @@
         <section id="main_content">
           <h3>Welcome to Github page for SentimentAnalysis.</h3>
 
-Nikhil Lingutla
+Sentiment Analysis classifier evaluation is done on the benchmark <a href="http://ai.stanford.edu/~amaas/data/sentiment/" class="user-mention">Large Movie Review Dataset dataset</a> and accuracy is as follows.
+
+<table border='1px solid red !important'>
+<tr align='left'>
+<td><b>Algorithm</b></td>
+<td><b>Accuracy</b></td>
+</tr>
+
+<tr align='left'>
+<td>Naive Bayes using Bernoulli</td>
+<td>85.52041%</td>
+</tr>
+
+<tr align='left'>
+<td>Naive Bayes with Multinomial</td>
+<td>84.66221%</td>
+</tr>
+
+<tr align='left'>
+<td>Binarized multinomial Naive Bayes</td>
+<td>50.33430%</td>
+</tr>
+
+<tr align='left'>
+<td>Using log of frequency counts</td>
+<td>58.94621%</td>
+</tr>
+
+<tr align='left'>
+<td>Sentiment Lexicon</td>
+<td>73.62539%</td>
+</tr>
+
+<tr align='left'>
+<td>Synthetic words with Bernoulli Naive Bayes</td>
+<td>85.11127%</td>
+</tr>
+
+<tr align='left'>
+<td>Synthetic words with Multinomial Naive Bayes</td>
+<td>85.10129%</td>
+</tr>
+
+</table>
 
 <pre><code>Folder /code/matlab
 nb_bernoulli.m</code>(Sentiment analysis implementation for Bernoulli Naive bayes)</pre>
